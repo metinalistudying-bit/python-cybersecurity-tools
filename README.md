@@ -22,4 +22,4 @@ These projects bridge my Python learning with real-world security applications.
 
 ## 📌 About Me
 15 y/o developer from Azerbaijan focused on Cybersecurity and Python.
-Building towards HTW Berlin — Cyber Security & Business.
+Building towards a future in Cybersecurity.
