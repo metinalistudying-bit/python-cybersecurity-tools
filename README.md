@@ -1,8 +1,24 @@
-Python Cybersecurity Tools
-Security-focused Python tools I'm building as I learn. Right now there's not much here, but that's the point — start small and add real tools as I actually learn the concepts behind them.
+#Python Cybersecurity Tools
+Security tools I'm building as I go. Not much here yet, but the goal is to keep adding things as I actually learn how they work instead of rushing to fill the repo.
 What's in here
-Password Generator — generates random passwords. You set how many letters, numbers, and symbols you want, and it shuffles them every time so the output isn't predictable. Built around the random module and random.shuffle().
-Why I'm building this
-I'm 15 and based in Azerbaijan, working toward cybersecurity. This repo is where I connect what I'm learning in Python to actual security use cases instead of just doing generic exercises.
+Password Generator
+Generates random passwords. You pick how many letters, numbers, and symbols you want, and it shuffles them every time so the output isn't predictable.
+
+Concepts: random module, lists, loops, random.shuffle()
+Use case: generating strong, unpredictable passwords
+
+Caesar Cipher
+Encodes and decodes messages with a classic letter shift. Pick encode or decode, type your message, set a shift amount, and it wraps around the alphabet automatically.
+
+Concepts: string manipulation, modulo operator, list indexing, loops, while loop for repeat runs
+Use case: basic encryption and decryption, and actually seeing how a substitution cipher works instead of just reading about it
+
 What's coming next
-A Caesar cipher encoder/decoder. A hash generator for MD5 and SHA256. A port scanner. A brute force password tester. A file encryptor.
+
+Hash generator (MD5, SHA256)
+Port scanner
+Brute force password tester
+File encryptor
+
+About me
+15, based in Azerbaijan, learning Python with cybersecurity as the end goal. Small tools now, bigger ones once I actually know what I'm doing.
