@@ -16,12 +16,6 @@ Encodes and decodes messages with a classic letter shift. Pick encode or decode,
 **Concepts:** string manipulation, modulo operator, list indexing, loops, while loop for repeat runs
 **Use case:** basic encryption and decryption, and actually seeing how a substitution cipher works instead of just reading about it
 
-### Port Scanner
-Takes an IP or hostname, tries to connect to each port in a range, and prints out which ones answer. Right now it only checks ports 50-85 by default, mostly because scanning the full range takes forever on a single thread.
-
-**Concepts:** socket module, `connect_ex()`, exception handling, command-line arguments
-**Use case:** seeing which ports are open on a host, and understanding what a tool like Nmap is actually doing under the hood instead of treating it as a black box
-
 ## What's coming next
 - Hash generator (MD5, SHA256)
 - Brute force password tester
